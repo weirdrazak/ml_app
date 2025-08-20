@@ -6,7 +6,7 @@ model = joblib.load("linear_regression_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 # Streamlit app
-st.title("MetaBrains Student Test Score Predictor")
+st.title("Razz Student Test Score Predictor")
 st.write("Enter the number of hours studied to predict the test score.")
 
 # User input
